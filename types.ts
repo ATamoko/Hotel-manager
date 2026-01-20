@@ -46,6 +46,7 @@ export interface EmailEntry extends ProcessedEmailResult {
   id: string;
   date_reception: string;
   expediteur: string; // Simplified for UI
+  senderName: string;
   subject: string;
 }
 
